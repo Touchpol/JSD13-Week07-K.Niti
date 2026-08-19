@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  h1 {
+    @apply text-3xl md:text-4xl;
+  }
+  p {
+    @apply text-center px-2 text-sm md:text-base lg:text-xl;
+  }
+}
